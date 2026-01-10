@@ -21,8 +21,8 @@ export default defineConfig({
         background_color: "#ffffff",
         theme_color: "#f97316",
         icons: [
-          { src: "/https://tse4.mm.bing.net/th/id/OIP.xpj0JrJxmvic_XjnnaJxiAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3", sizes: "192x192", type: "image/png" },
-          { src: "/https://tse4.mm.bing.net/th/id/OIP.xpj0JrJxmvic_XjnnaJxiAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3", sizes: "512x512", type: "image/png" }
+          { src: "/Vanchit_logo.png", sizes: "192x192", type: "image/png" },
+          { src: "/Vanchit_logo.png", sizes: "512x512", type: "image/png" }
         ]
       }
     })
