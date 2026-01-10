@@ -14,8 +14,8 @@ const Login = ({ onLogin }) => {
     const { candidateInfo } = useCandidate();
 
     // Credentials
-    const CORRECT_USERNAME = 'Admin';
-    const CORRECT_PASSWORD = 'Admin123';
+    const CORRECT_USERNAME = 'Prabhag14Admin';
+    const CORRECT_PASSWORD = 'Admin1234';
 
     const handleSubmit = async (e) => {
         e.preventDefault();
