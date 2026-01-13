@@ -20,7 +20,7 @@ import {
 import VoterList from './VoterList';
 
 // Add transliteration library (install: npm install transliteration)
-import { transliterate as tr } from 'transliteration';
+ import { transliterate as tr } from 'transliteration';
 const WEBSITE_URL = "https://jannetaa.vercel.app/preview/Prabhag14Vanchit";
 
 const FamilyManagement = ({ voter, onUpdate, candidateInfo }) => {

@@ -32,8 +32,8 @@ const BluetoothPrinter = ({ voter, familyMembers }) => {
 
   const { candidateInfo } = useCandidate();
 
-  const WEBSITE_URL = "https://jannetaa.vercel.app/preview/Prabhag14Vanchit";
-  const RECEIPT_IMAGE_URL = "https://cdn-icons-png.flaticon.com/128/5771/5771077.png";
+  const WEBSITE_URL = "";
+  const RECEIPT_IMAGE_URL = "";
 
   // Check if mobile device
   const isMobileDevice = () => {

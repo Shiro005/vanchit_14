@@ -22,17 +22,31 @@ export const CandidateProvider = ({ children }) => {
     mainFrontImage: '',
     mainWhatsappBrandingImage: '',
     logoImageCircle: "https://tse4.mm.bing.net/th/id/OIP.xpj0JrJxmvic_XjnnaJxiAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
-    TagLine: "वंचित बहुजन आघाडी",
+    TagLine: "अकोला महापालिका निवडणूक 2026",
     ReSellerName: "Powered By JanNetaa",
-    name: 'प्रभाग क्रमांक 14',
-    party: "वंचित बहुजन आघाडी",
-    electionSymbol: "गॅस सिलेंडर",
+    name: 'Akola Election 2026 Guidelines',
+    party: "Akola Election 2026 Guidelines",
+    electionSymbol: "",
     slogan: 'अकोला महापालिका निवडणूक 2026 साठी आपले स्वागत आहे!',
     contact: "",
     area: "अकोला महापालिका निवडणूक 2026",
-    messageWhatsapp: "वंचित बहुजन आघाडी पक्षाचे अधिकृत उमेदवार यांना वंचित बहुजन आघाडी पक्षाच्या(गॅस सिलेंडर) चिन्हावर  मतदान करून प्रचंड बहुमतांनी विजयी करा.\n*आपले उमेदवार:*\n(अ) सौ उज्वलाताई प्रवीण पातोडे\n(ब) सौ जयश्रीताई महेंद्र बहादूरकर\n(क) श्री पराग रामकृष्ण गवई\n(ड) शेख शमशु कमर शेख साबीर\n",
-    messagePrinting: "वंचित बहुजन आघाडी प्रभाग क्रमांक 14 चे अधिकृत उमेदवार<br>(अ) सौ उज्वलाताई प्रवीण पातोडे<br>(ब) सौ जयश्रीताई महेंद्र बहादूरकर<br>(क) श्री पराग रामकृष्ण गवई<br>(ड) शेख शमशु कमर शेख साबीर <br>यांना <b>गॅस सिलेंडर</b> या निशाणी समोरील बटन दाबून प्रचंड बहुमतांनी विजयी करा"
+    messageWhatsapp: "Akola Election 2026\n",
+    messagePrinting: "Akola Election 2026"
   };
+
+  //  mainFrontImage: '',
+  //   mainWhatsappBrandingImage: '',
+  //   logoImageCircle: "https://tse4.mm.bing.net/th/id/OIP.xpj0JrJxmvic_XjnnaJxiAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
+  //   TagLine: "वंचित बहुजन आघाडी",
+  //   ReSellerName: "Powered By JanNetaa",
+  //   name: 'प्रभाग क्रमांक 14',
+  //   party: "वंचित बहुजन आघाडी",
+  //   electionSymbol: "गॅस सिलेंडर",
+  //   slogan: 'अकोला महापालिका निवडणूक 2026 साठी आपले स्वागत आहे!',
+  //   contact: "",
+  //   area: "अकोला महापालिका निवडणूक 2026",
+  //   messageWhatsapp: "वंचित बहुजन आघाडी पक्षाचे अधिकृत उमेदवार यांना वंचित बहुजन आघाडी पक्षाच्या(गॅस सिलेंडर) चिन्हावर  मतदान करून प्रचंड बहुमतांनी विजयी करा.\n*आपले उमेदवार:*\n(अ) सौ उज्वलाताई प्रवीण पातोडे\n(ब) सौ जयश्रीताई महेंद्र बहादूरकर\n(क) श्री पराग रामकृष्ण गवई\n(ड) शेख शमशु कमर शेख साबीर\n",
+  //   messagePrinting: "वंचित बहुजन आघाडी प्रभाग क्रमांक 14 चे अधिकृत उमेदवार<br>(अ) सौ उज्वलाताई प्रवीण पातोडे<br>(ब) सौ जयश्रीताई महेंद्र बहादूरकर<br>(क) श्री पराग रामकृष्ण गवई<br>(ड) शेख शमशु कमर शेख साबीर <br>यांना <b>गॅस सिलेंडर</b> या निशाणी समोरील बटन दाबून प्रचंड बहुमतांनी विजयी करा"
 
   // Load candidate info from localStorage on mount
   useEffect(() => {
